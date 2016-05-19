@@ -1,4 +1,11 @@
 :- ensure_loaded(library(lists)).
+:- set_prolog_flag(single_var_warnings, off).
+
+initState(Program, N, StanPoczatkowy).
+
+stmt(Stmt, State, Pid, StateOut).
+
+step(Program, StanWe, PrId, StanWy).
 
 safe_verify(N, Str) :-
     read(Str, Vars),

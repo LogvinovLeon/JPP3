@@ -1,2 +1,2 @@
 main:
-	swipl -s ll345374.pl -g "main." -t halt.
+	sicstus -l ll345374.pl --goal "main, halt." --nologo --noinfo
